@@ -45,11 +45,11 @@ footer
 
 // modal	
 .modal-dialog
-	max-width: 524px
+	max-width: 548px
 
 .modal-content
 	border: none
-	padding: 32px
+	border-radius: 0
 	color: #545F75
 	font-size: 14px
 
@@ -57,49 +57,79 @@ footer
 	background: #222835
 
 .modal-backdrop.show
-	opacity: 0.4
+	opacity: 0.75
 
 .modal-header
 	border: none
 	padding: 0
 	flex-wrap: wrap
-	margin: 0 0 24px
-	h2
-		margin: 0
+	margin: 0 0 23px
+	padding: 30px 50px 0
 	.btn-close
 		position: absolute
-		right: 20px
-		top: 20px
+		right: 18px
+		top: 18px
+		width: 10px
+		height: 10px
 		opacity: 1
 		margin: 0
 		padding: 0
 		z-index: 1
-		display: none
 
-.percent-comission
-	margin: 16px 0 24px
+.modal-footer
+	width: 100%
+	border: none
+	background: rgba(42, 159, 23, .15)
+	padding: 17px 50px
+	font-size: 14px
 	font-weight: 300
-
-.total-value
-	margin: 19px 0 0
-	span
-		font-weight: 300
-		display: block
-		margin: 0 0 8px
-	p
-		font-weight: bold
-		font-size: 18px
-		color: #222835
+	color: #838383
+	>*
+		margin: 0
 
 .modal-body
-	padding: 0
+	padding: 0 30px 20px
 
 .modal-title
 	width: 100%
 	margin: 0 auto 0
-	text-align: center	
+	text-align: center
 	font-size: 18px
+	line-height: 22px
 	color: #203538
+
+.form-payment-debit
+	margin: 0 auto
+	max-width: 313px
+	width: 100%
+	button
+		max-width: 265px
+		width: 100%
+		margin: 10px 0 0
+	.form-group
+		max-width: none
+		padding: 0
+		width: 100%
+	.input-title
+		margin: 0 0 5px
+	label
+		display: flex
+		align-items: center
+		input
+			max-width: 265px	
+			padding-left: 49px
+			border: 1px solid #2A9F17
+	.input-icon
+		width: 24px
+		height: 17px
+		left: 15px		
+		fill: #2A9F17
+
+.currency-name
+	font-size: 16px
+	color: #000000
+	margin: 0 0 0 auto
+
 // modal end
 
 #timerModal
@@ -124,7 +154,6 @@ footer
 		max-width: 191px
 		width: 100%
 		font-size: 16px
-			
 
 .timer
 	font-size: 34px

@@ -60,7 +60,7 @@
 	align-items: flex-start
 	flex-wrap: wrap
 	margin: 0 -10px
-	[type="submit"]
+	[type="submit"], button
 		width: 100%
 		margin: 23px 0 0
 		height: 49px
@@ -575,7 +575,7 @@
 	&__head
 		width: 100%
 		display: flex
-		align-items: start
+		align-items: stretch
 		border-radius: 3px
 		background: rgba(0, 90, 61, .15)
 		color: #242424
@@ -590,6 +590,8 @@
 		&-sub
 			padding: 15px 25px
 			font-size: 16px
+			display: flex
+			align-items: center
 			span
 				font-weight: 500
 	&__body

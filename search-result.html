@@ -120,44 +120,45 @@
 					<div class="search-result-section-wrapper">
 						<div class="row">
 							<div class="col-12 col-lg-6">
-								<div class="search-result-box">
+								<div class="search-result-box search-result-box1">
 									<div class="search-result-box__head">
 										<div class="search-result-box__title">Поиск:</div>
 										<div class="search-result-box__title-sub">Тарунин Дмитрий Анатольевич</div>
 									</div>
 									<div class="search-result-box__body">
-										<div class="search-result-box__subtitle">
-											<svg class="svg-icon">
-												<use xlink:href="img/sprite.svg#search"></use>
-											</svg>
+										<div class="search-result-box__text">
+											<div class="search-result-box__subtitle">
+												<svg class="svg-icon">
+													<use xlink:href="img/sprite.svg#search"></use>
+												</svg>
+												Запрос на данные
+											</div>
 
-											Запрос на данные
+											<ul class="list-info-search my-ul">
+												<li>
+													<p>Фамилия:<span>Тарунин</span></p>
+												</li>
+												<li>
+													<p>Имя:<span>Дмитрий</span></p>
+												</li>
+												<li>
+													<p>Отчество:<span>Анатольевич</span></p>
+												</li>
+												<li>
+													<p>Регион:<span>Нижегородская область</span></p>
+												</li>
+												<li>
+													<p>Дата рождения:<span>27.10.1985</span></p>
+												</li>
+											</ul>
+
+											<a href="index.html" class="link-prev">
+												<span class="link-prev__icon"><svg class="svg-icon">
+														<use xlink:href="img/sprite.svg#arrow-left"></use>
+													</svg></span>
+												<span class="link-prev__text">Сделать новый запрос</span>
+											</a>
 										</div>
-
-										<ul class="list-info-search my-ul">
-											<li>
-												<p>Фамилия:<span>Тарунин</span></p>
-											</li>
-											<li>
-												<p>Имя:<span>Дмитрий</span></p>
-											</li>
-											<li>
-												<p>Отчество:<span>Анатольевич</span></p>
-											</li>
-											<li>
-												<p>Регион:<span>Нижегородская область</span></p>
-											</li>
-											<li>
-												<p>Дата рождения:<span>27.10.1985</span></p>
-											</li>
-										</ul>
-
-										<a href="index.html" class="link-prev">
-											<span class="link-prev__icon"><svg class="svg-icon">
-													<use xlink:href="img/sprite.svg#arrow-left"></use>
-												</svg></span>
-											<span class="link-prev__text">Сделать новый запрос</span>
-										</a>
 									</div>
 								</div>
 							</div>
@@ -169,21 +170,23 @@
 										<div class="search-result-box__title-sub"><span>Дата:</span> 16.11.2022 в 17:34</div>
 									</div>
 									<div class="search-result-box__body">
-										<div class="search-result-box__subtitle">
-											<svg class="svg-icon">
-												<use xlink:href="img/sprite.svg#list-icon"></use>
-											</svg>
-											Задолжнностей - <strong>4 шт</strong>
-										</div>
+										<div class="search-result-box__text">
+											<div class="search-result-box__subtitle">
+												<svg class="svg-icon">
+													<use xlink:href="img/sprite.svg#list-icon"></use>
+												</svg>
+												Задолжнностей - <strong>4 шт</strong>
+											</div>
 
-										<ul class="list-info-search my-ul">
-											<li>
-												<p>Сумма к оплате - <strong>93 205 руб.</strong></p>
-											</li>
-										</ul>
+											<ul class="list-info-search my-ul">
+												<li>
+													<p>Сумма к оплате - <strong>93 205 руб.</strong></p>
+												</li>
+											</ul>
 
-										<div class="box-text">
-											<p>Выберите задолженности ниже или оплатите сразу все</p>
+											<div class="box-text">
+												<p>Выберите задолженности ниже или оплатите сразу все</p>
+											</div>
 										</div>
 										<a href="#" class="btn btn-orange btn-pay-all">Оплатить все</a>
 
@@ -512,18 +515,17 @@
 						<div class="form-group">
 							<span class="input-title">Сумма с учетом комиссии 5%: 28 550 руб</span>
 							<label>
+								<input type="text" value="28 450" name="sum" required>
 								<span class="input-icon">
 									<svg class="svg-icon">
 										<use xlink:href="img/sprite.svg#payment"></use>
 									</svg>
 								</span>
-								<input type="text" value="28 450" name="sum">
-
-								<div class="currency-name">Руб.</div>
+								<span class="currency-name">Руб.</span>
 							</label>
 						</div>
 
-						<button type="submit" class="btn btn-accent">Перейти к оплате</button>
+						<button type="submit" class="btn btn-orange">Перейти к оплате</button>
 					</form>
 				</div>
 				<div class="modal-footer">

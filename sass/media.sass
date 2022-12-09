@@ -7,7 +7,7 @@
 		margin: 0 0 20px
 
 	.form-search-data
-		[type=submit]
+		[type=submit], button
 			margin: 0
 			.btn-icon
 				display: none
@@ -37,7 +37,7 @@
 
 	.search-result-box__title
 		font-size: 21px
-		padding: 10px		
+		padding: 10px
 
 @media only screen and (max-width: 992px)
 	.menu
@@ -134,8 +134,56 @@
 	.form-call
 		margin: 0 0 30px
 
+	.tbody .btn-pay
+		font-size: 14px
 
+	.lists-debit
+		padding: 60px 0
 
+	.thead
+		display: none
+
+	.td
+		flex: none
+		width: 33.33%
+		padding: 15px
+		text-align: left
+		&::before
+			content: attr(data-table)
+			display: block
+			width: 100%
+			margin: 0 0 10px
+			color: #242424
+			font-size: 14px
+			font-weight: 500
+		&:first-child
+			background: #fff
+
+	.tbody
+		.td
+			padding: 15px
+			border: none
+		a
+			margin: 0
+
+	.tr-total
+		padding: 15px 0 0
+		.td
+			width: 100%
+			padding: 0 15px
+			&:first-child
+				font-weight: 500
+				margin: 0 0 10px
+			&:nth-child(2)
+				text-align: left
+				justify-content: flex-start
+			&::before
+				display: none
+		.btn
+			margin: 15px 0 0
+			font-size: 18px
+			font-weight: 700
+			height: 50px
 
 @media only screen and (max-width: 768px)
 	header
@@ -237,9 +285,8 @@
 	.btn-group .btn
 		margin: 0 20px 0 0
 
-
-
-	
+	.td
+		width: 100%
 
 @media only screen and (max-width: 620px)
 	.form-group
@@ -348,73 +395,100 @@
 			width: 100%
 			max-width: none
 
-
-
-
-	// h3, .payments-box__title, .result-search-debit-box__title
-	// 	font-size: 18px
-
-	.table
-		tbody
-			tr
-				border-radius: 0
-				&:hover
-					box-shadow: none
-			td
-				padding: 5px
-				&:first-child
-					padding: 5px
-
-	thead
-		display: none
-
-	tr
-		display: flex
-		align-items: flex-start
-		flex-wrap: wrap
-		margin: 0 0 10px
-		padding: 5px 0 0
-		&:last-child
-			margin: 0
-
-	td
-		width: 50%
-		&::before
-			content: attr(data-table)
-			display: block
-			width: 100%
-			margin: 0 0 3px
-			text-decoration: underline
-			color: #222835
-			font-weight: normal
-			font-size: 14px
-
-	
 	.tooltip-box
-		padding: 20px
+		width: 262px
 		left: 0
-		right: auto
-		width: 280px
-
-	.table tbody .td-sum
-		.tooltip-box
-			p
-				font-size: 12px
 
 	.tooltip-wrapper
-		margin: 20px 0 0
+		margin: 34px 0 5px
+
+	.lists-debit
+		padding: 30px 0
+
+	.attention-box
+		padding: 15px
+		&__text
+			a
+				margin: 15px 0 0
+
+	.search-result-section-wrapper
+		&::before
+			display: none
+
+	.search-result-box
+		background: #FFFFFF
+		position: relative
+		font-size: 16px
+		z-index: 1
+		overflow: hidden
+		height: auto
+		&__body
+			padding: 20px 10px 20px
+		&__subtitle
+			font-size: 18px
+			margin: 0 0 13px
+		.svg-icon
+			width: 22px
+			height: 22px
+			left: -32px
+		&__text
+			padding: 0 26px
+
+	.search-result-box1
+		margin: 0 0 16px
+		&::before
+			content: ''
+			position: absolute
+			z-index: -1
+			background: url('../img/herb-decor.svg') no-repeat center
+			background-size: 100%
+			width: 428px
+			height: 449px
+			top: -72px
+			right: -271px
+
+	.btn-pay-all
+		margin: 15px auto 0
+
+	.payment-locked
+		font-size: 14px
+		margin: 5px 0 0			
+
+	.list-info-search
+		font-size: 16px
 
 
-	.modal-header .btn-close
-		display: flex
-		align-items: center
-		justify-content: center
+	.modal-dialog
+		max-width: 419px
+		margin: .5rem auto
 
-	.modal-content
-		padding: 24px
+	.modal-footer
+		padding: 15px 30px
+		text-align: center
+		font-size: 14px	
 
-	// .subscribe-success
-	// 	margin: 20px auto 10px
+	.modal-header
+		padding: 30px 30px 0
+		margin: 0 0 8px
+
+	.modal-body
+		padding: 0 15px 15px
+		.form-group
+			margin: 0
+
+	.form-payment-debit button
+		margin: 15px 0 0			
+	
+
+@media only screen and (max-width: 480px)
+	.search-result-box
+		&__head
+			flex-wrap: wrap
+		&__title
+			width: 100%
+			&-sub
+				width: 100%	
+				padding: 10px
 
 @media only screen and (max-width: 420px)
 	.bank-data
@@ -445,3 +519,5 @@
 		max-width: 80px
 		right: -10px
 
+	.btn
+		padding: 12px 10px
