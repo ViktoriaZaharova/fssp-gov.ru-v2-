@@ -1,0 +1,154 @@
+@import "fonts"
+@import "vars"
+
+footer
+	background: #005A3D
+	color: #fff
+	padding: 30px 0
+	.logo
+		margin: 0 auto 0 0
+	.mail
+		color: #AAAAAA
+		.svg-icon
+			fill: #AAAAAA
+
+.footer-col
+	margin: 0 0 0 auto
+
+.description-service
+	color: #B8BFB9
+	text-align: center
+	font-size: 12px
+	font-weight: 200
+	font-family: $font
+	margin: 35px 0 0
+
+.footer-menu-wrapper
+	margin: 0 auto
+	display: flex
+	align-items: flex-start
+
+.footer-menu
+	font-size: 16px
+	font-weight: 300
+	margin: 0 37px 0 0
+	&:last-child
+		margin: 0
+	li
+		margin: 0 0 15px
+		&:last-child
+			margin: 0
+		a
+			color: #AAAAAA
+			&:hover
+				color: #fff
+
+// modal	
+.modal-dialog
+	max-width: 524px
+
+.modal-content
+	border: none
+	padding: 32px
+	color: #545F75
+	font-size: 14px
+
+.modal-backdrop
+	background: #222835
+
+.modal-backdrop.show
+	opacity: 0.4
+
+.modal-header
+	border: none
+	padding: 0
+	flex-wrap: wrap
+	margin: 0 0 24px
+	h2
+		margin: 0
+	.btn-close
+		position: absolute
+		right: 20px
+		top: 20px
+		opacity: 1
+		margin: 0
+		padding: 0
+		z-index: 1
+		display: none
+
+.percent-comission
+	margin: 16px 0 24px
+	font-weight: 300
+
+.total-value
+	margin: 19px 0 0
+	span
+		font-weight: 300
+		display: block
+		margin: 0 0 8px
+	p
+		font-weight: bold
+		font-size: 18px
+		color: #222835
+
+.modal-body
+	padding: 0
+
+.modal-title
+	width: 100%
+	margin: 0 auto 0
+	text-align: center	
+	font-size: 18px
+	color: #203538
+// modal end
+
+#timerModal
+	.modal-dialog
+		max-width: 366px
+	.modal-content
+		position: relative
+		z-index: 1
+		padding: 50px 30px
+		border-radius: 8px
+		background: #fff
+	.modal-body
+		padding: 0
+		width: 100%
+		margin: 0 auto
+		text-align: center
+	.modal-title
+		font-weight: 600
+	.box-text
+		margin: 0 auto
+		color: #203538
+		max-width: 191px
+		width: 100%
+		font-size: 16px
+			
+
+.timer
+	font-size: 34px
+	font-weight: 600
+	color: #2A9F17
+	margin: 0 auto
+	text-align: center
+
+.loader
+	max-width: 306px
+	width: 100%
+	height: 5px
+	margin: 20px auto 23px
+	position: relative
+	background: #D9D9D9
+	&-bg
+		position: absolute
+		left: 0
+		top: 0
+		width: 0
+		height: 100%
+		animation: loading 60s ease-in-out forwards
+		background: #2A9F17
+
+@keyframes loading
+	to
+		width: 100%

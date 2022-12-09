@@ -1,0 +1,487 @@
+/*==========	Desktop First	==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .form-group {
+    max-width: 33.33%;
+    margin: 0 0 20px;
+  }
+  .form-search-data [type=submit] {
+    margin: 0;
+  }
+  .form-search-data [type=submit] .btn-icon {
+    display: none;
+  }
+  .form-search-data [type=submit] .btn-text {
+    display: block;
+  }
+  .form-search-data .form-btn-search {
+    margin: 23px 0 0;
+  }
+  .form-group-number-document {
+    max-width: none;
+  }
+  .form-group-button {
+    margin: 0;
+  }
+  .form-group-my {
+    max-width: none;
+    margin: 0;
+  }
+  .form-btn-search {
+    width: 100%;
+  }
+  .label-type-document .dropdown-menu {
+    min-width: 249px;
+  }
+  .search-result-box__title-sub {
+    padding: 10px 15px;
+  }
+  .search-result-box__title {
+    font-size: 21px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .menu {
+    font-size: 16px;
+    margin: 0 auto;
+  }
+  .menu li {
+    margin: 0 20px 0 0;
+  }
+  .nav-tabs {
+    font-size: 18px;
+  }
+  .nav-tabs .nav-link {
+    padding: 16px 20px;
+  }
+  .advantages-box {
+    min-height: 45px;
+    height: auto;
+    margin: 0 0 20px;
+  }
+  .phone {
+    font-size: 16px;
+  }
+  .form-group {
+    max-width: 50%;
+  }
+  .form-group-button {
+    margin: 23px 0 0;
+  }
+  .form-search-data .form-btn-search {
+    margin: 0;
+  }
+  .form-group-my {
+    max-width: none;
+  }
+  .tab-content {
+    padding: 30px;
+  }
+  .btn-orange {
+    font-size: 18px;
+  }
+  .bank-data {
+    padding: 50px 0;
+  }
+  h1, h2 {
+    font-size: 26px;
+    margin: 0 0 20px;
+  }
+  .question {
+    margin: 50px 0 60px;
+  }
+  .question h2 {
+    margin: 0;
+  }
+  .card {
+    padding: 20px 0 10px;
+  }
+  .card-header button {
+    font-size: 18px;
+  }
+  .footer-menu-wrapper {
+    width: 100%;
+    margin: 21px 0 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .footer-menu {
+    margin: 0;
+    font-size: 14px;
+  }
+  .footer-col {
+    margin: 0;
+    min-width: 223px;
+  }
+  .page {
+    padding: 30px 0;
+  }
+  .page h1 {
+    margin: 0 0 15px;
+  }
+  .nav-breadcrumb {
+    margin: 0 0 30px;
+  }
+  .contacts-box__img {
+    max-width: 300px;
+    right: 0;
+  }
+  .page-error {
+    padding: 40px 0;
+  }
+  .page-error h1 {
+    margin: 0 0 40px;
+    font-size: 26px;
+  }
+  .link-search {
+    font-size: 21px;
+  }
+  .form-call {
+    margin: 0 0 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header .menu {
+    display: none;
+  }
+  header .logo {
+    margin: 0 auto 0 0;
+  }
+  .btn-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .home {
+    padding: 30px 0 20px;
+  }
+  .text-title {
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0 0 15px;
+  }
+  .home-wrapper {
+    background: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .home-wrapper__tabs {
+    background: #fff;
+    margin: 0 0 20px;
+    padding: 20px;
+  }
+  .home-wrapper__decor {
+    display: none;
+  }
+  .tab-content {
+    padding: 20px 0 0;
+  }
+  .advantages-box {
+    margin: 0 0 10px;
+    background: #005A3D;
+    border-radius: 3px;
+    color: #fff;
+    padding: 15px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    min-height: 137px;
+  }
+  .advantages-box .box-text {
+    display: block;
+  }
+  .advantages-box__icon {
+    fill: #DB953C;
+    width: 39px;
+    height: 38px;
+    min-width: 39px;
+    margin: 0;
+  }
+  .advantages-box__text {
+    width: calc(100% - 39px);
+    padding: 0 0 0 15px;
+  }
+  .form-group-my [type=submit] {
+    margin: 0;
+  }
+  .btn {
+    padding: 12px 20px;
+  }
+  .bank-data {
+    padding: 30px 0 11px;
+  }
+  .bank-data .box-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .bank-data .box-text img {
+    display: inline;
+    max-width: 200px;
+    float: right;
+  }
+  .bank-data h2 {
+    margin: 0 0 17px;
+  }
+  .question {
+    margin: 30px 0;
+  }
+  .card-body {
+    font-size: 16px;
+  }
+  .contacts-box {
+    position: relative;
+    padding: 15px 0;
+    font-size: 16px;
+  }
+  .contacts-box .phone, .contacts-box .mail {
+    font-size: 16px;
+  }
+  .contacts-box .phone {
+    margin: 0 0 10px;
+  }
+  .contacts-box__img {
+    max-width: 167px;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .schedule {
+    margin: 10px 0 0;
+    font-size: 16px;
+  }
+  .btn-group .btn {
+    margin: 0 20px 0 0;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .form-group {
+    max-width: none;
+  }
+  .form-group-button {
+    margin: 0;
+  }
+  .info-box {
+    margin: 0 0 20px;
+    padding: 15px 20px 15px 10px;
+  }
+  .info-box .box-text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .info-box__icon {
+    margin: 0 10px 0 0;
+  }
+  .info-box__title {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .advantages-box {
+    min-height: auto;
+    font-size: 21px;
+  }
+  header .header-contacts {
+    display: none;
+  }
+  .btn {
+    font-size: 18px;
+  }
+  .services {
+    padding: 30px 0;
+  }
+  .services h2 {
+    margin: 0 0 20px;
+  }
+  .mb-30, .mb-35 {
+    margin-bottom: 20px;
+  }
+  .services-card {
+    padding: 10px;
+  }
+  .services-card__icon {
+    margin: 0 0 15px;
+  }
+  .services-card__title {
+    margin: 0 0 5px;
+    font-size: 14px;
+    line-height: 17px;
+    min-height: 34px;
+  }
+  .services-card .box-text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .services-card__link {
+    margin: 13px 0 0;
+  }
+  .btn {
+    width: 100%;
+  }
+  .mail {
+    font-size: 12px;
+  }
+  .footer-col {
+    min-width: auto;
+  }
+  footer .header-contacts {
+    font-size: 14px;
+  }
+  .bank-data .box-text img {
+    max-width: 175px;
+  }
+  .mobile-menu__footer {
+    margin: 40px 0 0;
+  }
+  .address {
+    max-width: 246px;
+  }
+  .text-title {
+    margin: 0 0 15px;
+  }
+  .page-payments {
+    padding-bottom: 30px;
+  }
+  .payments-box {
+    margin: 0 0 25px;
+  }
+  .payments-box__title {
+    margin: 0 0 15px;
+  }
+  .payments-box ol {
+    margin: 15px 0;
+  }
+  .payments-box .box-text p {
+    margin: 0 0 15px;
+  }
+  .payments-box .box-text p:last-child {
+    margin: 0;
+  }
+  .payments-type {
+    margin: 0;
+  }
+  .form-call {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .form-call label {
+    max-width: none;
+    margin: 0 0 20px;
+  }
+  .form-call [type=submit] {
+    width: 100%;
+    max-width: none;
+  }
+  .table tbody tr {
+    border-radius: 0;
+  }
+  .table tbody tr:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .table tbody td {
+    padding: 5px;
+  }
+  .table tbody td:first-child {
+    padding: 5px;
+  }
+  thead {
+    display: none;
+  }
+  tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 0 10px;
+    padding: 5px 0 0;
+  }
+  tr:last-child {
+    margin: 0;
+  }
+  td {
+    width: 50%;
+  }
+  td::before {
+    content: attr(data-table);
+    display: block;
+    width: 100%;
+    margin: 0 0 3px;
+    text-decoration: underline;
+    color: #222835;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .tooltip-box {
+    padding: 20px;
+    left: 0;
+    right: auto;
+    width: 280px;
+  }
+  .table tbody .td-sum .tooltip-box p {
+    font-size: 12px;
+  }
+  .tooltip-wrapper {
+    margin: 20px 0 0;
+  }
+  .modal-header .btn-close {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .modal-content {
+    padding: 24px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .bank-data .box-text p img {
+    max-width: 175px;
+  }
+  .btn-burger {
+    margin: 0;
+  }
+  .footer-col {
+    width: 100%;
+    margin: 15px 0 0;
+  }
+  .footer-menu-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer-menu {
+    margin: 0 0 15px;
+  }
+  .footer-menu:last-child {
+    margin: 0;
+  }
+  .description-service {
+    margin: 40px auto 0;
+  }
+  .contacts-box__img {
+    max-width: 80px;
+    right: -10px;
+  }
+}

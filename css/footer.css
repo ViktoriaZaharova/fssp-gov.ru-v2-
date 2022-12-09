@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "TimesNewRoman";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/TimesNewRoman/TimesNewRoman.eot");
+  src: url("../fonts/TimesNewRoman/TimesNewRoman.eot?#iefix") format("embedded-opentype"), url("../fonts/TimesNewRoman/TimesNewRoman.woff") format("woff"), url("../fonts/TimesNewRoman/TimesNewRoman.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TimesNewRoman";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/TimesNewRoman/TimesNewRoman-Bold.eot");
+  src: url("../fonts/TimesNewRoman/TimesNewRoman-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/TimesNewRoman/TimesNewRoman-Bold.woff") format("woff"), url("../fonts/TimesNewRoman/TimesNewRoman-Bold.ttf") format("truetype");
+}
+footer {
+  background: #005A3D;
+  color: #fff;
+  padding: 30px 0;
+}
+footer .logo {
+  margin: 0 auto 0 0;
+}
+footer .mail {
+  color: #AAAAAA;
+}
+footer .mail .svg-icon {
+  fill: #AAAAAA;
+}
+
+.footer-col {
+  margin: 0 0 0 auto;
+}
+
+.description-service {
+  color: #B8BFB9;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 200;
+  font-family: "TimesNewRoman", sans-serif;
+  margin: 35px 0 0;
+}
+
+.footer-menu-wrapper {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer-menu {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 37px 0 0;
+}
+.footer-menu:last-child {
+  margin: 0;
+}
+.footer-menu li {
+  margin: 0 0 15px;
+}
+.footer-menu li:last-child {
+  margin: 0;
+}
+.footer-menu li a {
+  color: #AAAAAA;
+}
+.footer-menu li a:hover {
+  color: #fff;
+}
+
+.modal-dialog {
+  max-width: 524px;
+}
+
+.modal-content {
+  border: none;
+  padding: 32px;
+  color: #545F75;
+  font-size: 14px;
+}
+
+.modal-backdrop {
+  background: #222835;
+}
+
+.modal-backdrop.show {
+  opacity: 0.4;
+}
+
+.modal-header {
+  border: none;
+  padding: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 24px;
+}
+.modal-header h2 {
+  margin: 0;
+}
+.modal-header .btn-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  opacity: 1;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  display: none;
+}
+
+.percent-comission {
+  margin: 16px 0 24px;
+  font-weight: 300;
+}
+
+.total-value {
+  margin: 19px 0 0;
+}
+.total-value span {
+  font-weight: 300;
+  display: block;
+  margin: 0 0 8px;
+}
+.total-value p {
+  font-weight: bold;
+  font-size: 18px;
+  color: #222835;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.modal-title {
+  width: 100%;
+  margin: 0 auto 0;
+  text-align: center;
+  font-size: 18px;
+  color: #203538;
+}
+
+#timerModal .modal-dialog {
+  max-width: 366px;
+}
+#timerModal .modal-content {
+  position: relative;
+  z-index: 1;
+  padding: 50px 30px;
+  border-radius: 8px;
+  background: #fff;
+}
+#timerModal .modal-body {
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+#timerModal .modal-title {
+  font-weight: 600;
+}
+#timerModal .box-text {
+  margin: 0 auto;
+  color: #203538;
+  max-width: 191px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.timer {
+  font-size: 34px;
+  font-weight: 600;
+  color: #2A9F17;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.loader {
+  max-width: 306px;
+  width: 100%;
+  height: 5px;
+  margin: 20px auto 23px;
+  position: relative;
+  background: #D9D9D9;
+}
+.loader-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  -webkit-animation: loading 60s ease-in-out forwards;
+          animation: loading 60s ease-in-out forwards;
+  background: #2A9F17;
+}
+
+@-webkit-keyframes loading {
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes loading {
+  to {
+    width: 100%;
+  }
+}

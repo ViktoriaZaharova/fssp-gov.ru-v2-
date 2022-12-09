@@ -1,0 +1,742 @@
+@import "vars"
+
+// home
+.home
+	background: #F1F3F2
+	padding: 40px 0 166px
+
+.home-wrapper
+	width: 100%
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.05)
+	background: #fff
+	position: relative
+	z-index: 1
+	&__decor
+		position: absolute
+		width: 246px
+		height: 100%
+		overflow: hidden
+		top: 0
+		right: 0
+		z-index: -1
+		display: flex
+		align-items: center
+		justify-content: flex-start
+		img
+			min-width: 670px
+			position: absolute
+			left: 0
+			top: -137px
+	&__tabs
+		width: 100%
+
+.advantages-box
+	width: 100%
+	height: 100%
+	display: flex
+	align-items: center
+	color: #484848
+	font-size: 18px
+	border-radius: 3px 3px 0px 0px
+	background: #C7D0CB
+	padding: 10px 14px
+	font-family: $font
+	&__icon
+		margin: 0 10px 0 0
+		@include d-flex
+		width: 24px
+		min-width: 24px
+		height: 23px
+		fill: #727373
+	.box-text
+		display: none
+		font-size: 14px
+		font-weight: 300
+		margin: 10px 0 0
+		width: 100%
+
+.form-search-data
+	display: flex
+	align-items: flex-start
+	flex-wrap: wrap
+	margin: 0 -10px
+	[type="submit"]
+		width: 100%
+		margin: 23px 0 0
+		height: 49px
+		.btn-icon
+			fill: #fff
+			width: 23px
+			min-width: 23px
+			height: 23px
+			@include d-flex
+			margin: 0 auto
+
+.form-group
+	padding: 0 10px
+	width: 100%
+	max-width: 232px
+
+.form-group-name
+	max-width: 285px
+
+.form-group-date
+	max-width: 179px
+
+.form-group-select, .form-group-button
+	max-width: 276px
+
+.form-group-number
+	max-width: 235px
+
+.form-group-name-company
+	max-width: 256px
+
+.form-group-region
+	max-width: 226px
+
+.form-btn-search
+	width: fit-content
+	.btn-text
+		display: none
+
+.form-group-number-document
+	max-width: 740px
+
+.form-group-my
+	padding: 0
+	max-width: none
+	width: 100%
+	[type="submit"]
+		margin: 23px 0 0
+		width: 100%
+
+.info-box
+	width: 100%
+	background: #fff
+	display: flex
+	align-items: center
+	margin: 0 0 40px
+	padding: 17px 26px 19px 25px
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1)
+	&__icon
+		@include d-flex
+		width: 10px
+		height: 65px
+		min-width: 10px
+		fill: #DB953C
+		margin: 0 20px 0 0
+	&__title
+		width: 100%
+		display: flex
+		align-items: center
+		flex-wrap: wrap
+		color: #203538
+		font-size: 20px
+		font-family: $font
+		margin: 0 0 7px
+	.box-text
+		color: #616161
+		font-size: 16px
+		font-weight: 300
+
+.label-type-document
+	.dropdown-menu
+		min-width: 520px
+// home end		
+
+// bank-data
+.bank-data
+	padding: 80px 0 70px
+	h2
+		margin: 0 0 11px
+	.box-text
+		font-size: 18px
+		color: #242424
+		line-height: 22px
+		margin: 24px 0 0
+		p
+			display: inline
+			float: left
+		img
+			display: none
+		p
+			margin: 0 0 10px
+			&:last-child
+				margin: 0
+	&__img
+		max-width: 373px
+		margin: 0 auto
+		@include d-flex
+
+// bank-data end
+
+// services
+.services
+	padding: 70px 0 40px
+	h2
+		margin: 0 0 47px
+
+.services-card
+	width: 100%
+	height: 100%
+	background: #fff
+	padding: 15px
+	border-radius: 3px
+	&__img
+		@include d-flex
+		width: 42px
+		height: 44px
+		margin: 0 0 15px
+		img
+			max-height: 100%
+	&__title
+		color: #203538
+		font-size: 18px
+		font-weight: 500
+		margin: 0 0 15px
+		min-height: 44px
+	&__link
+		margin: 20px 0 0
+		font-size: 13px
+		font-weight: 300
+	.box-text
+		color: #676767
+		font-weight: 300
+		p
+			margin: 0
+// services end	
+
+// .row-car-info
+// 	display: none
+
+// .subscribe-box
+// 	position: relative
+// 	width: 100%
+// 	border-radius: 3px
+// 	background: #fff
+// 	z-index: 1
+// 	padding: 32px 32px 176px
+// 	&__title
+// 		margin: 0 0 16px
+// 		color: #222835
+// 		font-size: 18px
+// 		font-weight: bold
+// 	&__img
+// 		position: absolute
+// 		bottom: 0
+// 		left: 0
+// 		height: 176px
+// 		width: 100%
+// 		@include d-flex
+// 		z-index: -2
+// 		img
+// 			max-height: 100%
+// 	&::before
+// 		content: ''
+// 		position: absolute
+// 		left: 50%
+// 		top: 50%
+// 		transform: translate(-50%,-50%)
+// 		border: 1px dashed #CDD1D4
+// 		border-radius: 3px
+// 		width: calc(100% - 16px)
+// 		height: calc(100% - 16px)
+// 		z-index: -1
+// 	.form-subscribe
+// 		margin: 24px 0 0
+// 	.box-text
+// 		color: #86909C
+// 		font-weight: 300
+// 		font-size: 14px
+
+// .form-subscribe
+// 	input
+// 		background: #F0F4F9
+// 	button
+// 		width: 100%
+// 		margin: 24px 0 0
+// 	.box-text
+// 		margin: 16px 0 0
+
+// .subscribe-success
+// 	display: flex
+// 	align-items: center
+// 	justify-content: center
+// 	font-weight: 300
+// 	color: $accent
+// 	margin: 40px auto 20px
+// 	img
+// 		margin: 0 8px 0 0
+// 		width: 24px
+
+// .home-search-result
+// 	.info-box
+// 		&__text
+// 			max-width: 500px
+
+// .result-search-debit-box
+// 	margin: 32px 0 0
+// 	&__title
+// 		font-size: 21px
+// 		font-weight: bold
+// 		color: $accent
+// 		margin: 0 0 16px
+// 	button
+// 		margin: 0 0 0 auto
+// 		padding: 16px 32px
+// 	.box-text
+// 		span
+// 			font-weight: 300
+// 			margin: 0 0 8px
+// 			color: #545F75
+// 			display: block
+// 		p
+// 			color: #222835
+// 			font-size: 30px
+// 			font-weight: bold
+
+// .refresh-box
+// 	color: #E3463C
+// 	h2
+// 		color: #E3463C
+// 		margin: 0 0 16px
+// 		font-size: 21px
+// 		font-weight: bold
+
+// .subscribe-wrapper
+// 	margin: 48px 0
+// 	width: 100%
+// 	position: relative
+// 	z-index: 1
+// 	background: #fff
+// 	padding: 32px
+// 	&__text
+// 		width: 100%
+// 	&__title
+// 		font-weight: bold
+// 		color: #222835
+// 		font-size: 18px
+// 		margin: 0 0 8px
+// 	.box-text
+// 		font-size: 14px
+// 		color: #86909C
+// 	&::before
+// 		content: ''
+// 		position: absolute
+// 		left: 50%
+// 		top: 50%
+// 		transform: translate(-50%,-50%)
+// 		width: calc(100% - 16px)
+// 		height: calc(100% - 16px)
+// 		border: 1px dashed #CDD1D4
+// 		border-radius: 3px
+// 		z-index: -1
+// 	.form-subscribe
+// 		display: flex
+// 		align-items: flex-start
+// 		flex-wrap: wrap
+// 		label
+// 			width: calc(100% - 276px - 28px)
+// 			margin: 0 auto 0 0
+// 		button
+// 			max-width: 276px
+// 			width: 100%
+// 			margin: 0
+
+// official-payments	
+// .official-payments-wrapper
+// 	position: relative
+// 	z-index: 1
+// 	width: 100%
+// 	overflow: hidden
+// 	background: #F0F4F9
+// 	border-radius: 3px
+// 	padding: 48px 64px 101px
+// 	&::before
+// 		content: ''
+// 		position: absolute
+// 		left: 50%
+// 		top: 50%
+// 		transform: translate(-50%,-50%)
+// 		border: 1px dashed #CDD1D4
+// 		border-radius: 3px
+// 		width: calc(100% - 16px)
+// 		height: calc(100% - 16px)
+// 		z-index: -1
+// 	.info-box
+// 		margin: 30px 0 0
+
+// .official-payments__image
+// 	@include d-flex
+// 	max-width: 575px
+// 	width: 100%
+// 	bottom: 0
+// 	right: 35px
+// 	position: absolute
+// 	z-index: -2
+
+// .official-payments__content
+// 	max-width: 530px
+// 	width: 100%
+
+// .info-box
+// 	display: flex
+// 	align-items: flex-start
+// 	color: #86909C
+// 	font-size: 14px
+// 	line-height: 140%
+// 	&__icon
+// 		@include d-flex
+// 		margin: 0 16px 0 0
+// 		width: 36px
+// 		height: 36px
+// 		min-width: 36px
+// 		border-radius: 50%
+// 		background: #E1E7ED
+// 		fill: #86909C
+// 		svg
+// 			width: 5px
+// 			height: 12px
+// official-payments end	
+
+// question	
+.question
+	margin: 80px 0 100px
+	h2
+		margin: 0 0 30px
+// question end	
+
+// page-contacts
+.page-contacts
+	position: relative
+	overflow: hidden
+	.container
+		position: relative
+
+.contacts-box__img
+	position: absolute
+	max-width: 438px
+	width: 100%
+	top: 61px
+	right: -60px
+	@include d-flex
+
+.contacts-box
+	padding: 25px 0
+	color: #242424
+	border-top: 1px solid rgba(32, 53, 56, .25)
+	h3
+		margin: 0 0 9px
+	p
+		font-weight: 300
+	.phone, .mail
+		color: #242424
+		font-size: 18px
+		font-weight: normal
+		&:hover
+			color: $accent
+		.svg-icon
+			fill: #2A9F17
+			margin: 0 10px 0 0
+	.phone
+		margin: 0 0 15px
+
+.schedule
+	margin: 15px 0 0
+	color: #242424
+	font-size: 18px
+	font-weight: 300
+	p
+		margin: 0
+	span
+		font-weight: normal
+// page-contacts end		
+
+// page payments	
+.page-payments
+	padding-bottom: 80px
+	.text-title
+		margin: 0 0 35px
+		color: #6A6A6A
+		font-size: 16px
+		line-height: 19px
+
+.payments-box
+	margin: 0 0 35px
+	color: #6A6A6A
+	font-size: 16px
+	&:last-child
+		margin: 0
+	&__title
+		margin: 0 0 20px
+		color: #242424
+		font-size: 16px
+	ol
+		margin: 20px 0
+	.box-text
+		font-weight: 300
+		color: #6A6A6A
+		line-height: 19px
+
+.payments-type
+	margin: 0 0 15px
+
+.payment-card
+	width: 100%
+	height: 100%
+	&__logo
+		margin: 0 0 10px
+		height: 49px
+		display: flex
+		align-items: center
+		img
+			max-height: 100%
+// page payments end	
+
+// page-error
+.page-error
+	padding: 80px 0
+	h1
+		font-size: 35px
+		margin: 0 0 50px
+	.box-text
+		color: #203538
+		font-size: 21px
+		font-weight: 500
+
+.link-search
+	text-decoration: underline
+	color: #2A9F17
+	font-size: 18px
+	margin: 25px 0 0
+
+.form-call
+	width: 100%
+	display: flex
+	align-items: flex-start
+	flex-wrap: wrap
+	margin: 0 0 35px
+	label
+		max-width: 265px
+		margin: 0 20px 0 0
+	[type="submit"]
+		max-width: 256px
+		width: 100%
+
+// search-result	
+.search-result-section
+	background: transparent
+
+.attention-box
+	width: 100%
+	background: rgba(42, 159, 23, 0.15)
+	margin: 35px 0 0
+	padding: 25px 47px 25px 53px
+	&__head
+		width: 100%
+		display: flex
+		align-items: center
+		margin: 0 0 10px
+		color: #242424
+		font-size: 18px
+		font-weight: 500
+		img
+			margin: 0 13px 0 0
+	&__text
+		color: #242424
+		font-weight: 300
+		a
+			margin: 10px 0 0
+
+.search-result-section-wrapper
+	width: 100%
+	position: relative
+	z-index: 1
+	overflow: hidden
+	&::before
+		content: ''
+		position: absolute
+		z-index: -1
+		width: 793px
+		height: 831px
+		background: url('../img/herb-decor.svg') no-repeat center
+		background-size: 100%
+		top: -207px
+		right: -619px
+
+.search-result-box
+	width: 100%
+	height: 100%
+	border-radius: 3px
+	filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.1))
+	font-size: 18px
+	color: #242424
+	&__head
+		width: 100%
+		display: flex
+		align-items: start
+		border-radius: 3px
+		background: rgba(0, 90, 61, .15)
+		color: #242424
+	&__title
+		padding: 10px 15px
+		color: #fff
+		font-size: 26px
+		font-family: $font
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1)
+		border-radius: 3px
+		background: #005A3D
+		&-sub
+			padding: 15px 25px
+			font-size: 16px
+			span
+				font-weight: 500
+	&__body
+		padding: 25px 53px
+		.box-text
+			margin: 10px 0 0
+			font-weight: 300
+	&__subtitle
+		position: relative
+		margin: 0 0 15px
+		font-size: 21px
+		color: #203538
+		font-weight: 500
+		.svg-icon
+			position: absolute
+			width: 23px
+			height: 23px
+			top: 0
+			left: -38px
+			fill: #2A9F17
+
+.list-info-search
+	width: 100%
+	font-size: 18px
+	p
+		font-weight: 500
+	span
+		font-weight: normal
+		margin: 0 0 0 5px
+	li
+		margin: 0 0 10px
+		&:last-child
+			margin: 0
+
+.payment-locked
+	display: flex
+	flex-wrap: wrap
+	align-items: center
+	color: #242424
+	font-weight: 300
+	margin: 10px 0 0
+
+.btn-pay-all
+	width: 100%
+	margin: 30px auto 0
+	font-size: 18px
+	font-weight: bold
+
+.lists-debit
+	padding: 80px 0
+
+.table
+	margin: 0
+	width: 100%
+	text-align: center
+	color: #242424
+	font-size: 14px
+
+.tr
+	width: 100%
+	display: flex
+	align-items: stretch
+	flex-wrap: wrap
+
+.td
+	flex: 1
+
+.thead
+	font-weight: 500
+	line-height: 17px
+	background: #fff
+	.td
+		display: flex
+		align-items: center
+		justify-content: center
+		padding: 18px 10px
+		border-right: 1px solid #F0F0F0
+		&:last-child
+			border: none
+
+.tbody
+	font-weight: 300
+	.td
+		padding: 20px 10px
+		border-right: 1px solid #F0F0F0
+		background: rgba(42, 159, 23, 0.05)
+		&:last-child
+			border: none
+	a
+		text-decoration: underline
+		margin: 0 auto
+		color: #242424
+		&:hover
+			color: $accent
+	.btn-pay
+		width: 100%
+		padding: 10px 5px
+		height: 40px
+		border-radius: 0
+		font-weight: 500
+		font-size: 16px
+		color: #fff
+		text-decoration: none
+		&:hover
+			color: #fff
+	.btn-disabled
+		font-size: 14px
+		font-weight: 500
+
+.tr-total
+	background: #fff
+	font-weight: normal
+	margin: 0 0 20px
+	&:last-child
+		margin: 0
+	.td
+		padding: 0 15px
+		display: flex
+		align-items: center
+		flex-wrap: wrap
+		border: none
+		background: transparent
+		&:last-child
+			padding: 0
+	.tr-total-2
+		text-align: center
+		justify-content: center		
+
+.btn-pay
+	width: 100%
+	padding: 10px 5px
+	height: 40px
+	border-radius: 0
+	font-weight: 500
+	font-size: 16px
+	color: #fff
+	text-decoration: none
+
+.tr-total-3
+	flex: 3
+
+.tr-total-2
+	flex: 2
+	text-align: center
+
+.tr-total-1
+	flex: 1
+
+
+// search-result end	
