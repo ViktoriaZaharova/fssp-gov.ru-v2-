@@ -40,6 +40,9 @@
     font-size: 21px;
     padding: 10px;
   }
+  .advantages-box {
+    font-size: 15px;
+  }
 }
 @media only screen and (max-width: 992px) {
   .menu {
@@ -55,10 +58,20 @@
   .nav-tabs .nav-link {
     padding: 16px 20px;
   }
+  .home-wrapper {
+    padding: 0;
+  }
   .advantages-box {
-    min-height: 45px;
+    min-height: none;
     height: auto;
     margin: 0 0 20px;
+    position: relative;
+    font-size: 18px;
+    left: 0;
+    top: 0;
+    -webkit-transform: none;
+            transform: none;
+    width: 100%;
   }
   .phone {
     font-size: 16px;
@@ -582,5 +595,33 @@
   }
   .btn {
     padding: 12px 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .advantages-box:hover {
+    background: #005A3D;
+    color: #fff;
+    border-radius: 3px;
+    min-height: none;
+  }
+  .advantages-box:hover .advantages-box__text {
+    font-size: 21px;
+    padding: 0;
+    width: 100%;
+  }
+  .advantages-box:hover .advantages-box__icon {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    margin: 0 0 20px;
+    fill: #DB953C;
+  }
+  .advantages-box:hover .box-text {
+    display: block;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .advantages-box:hover {
+    min-height: 187px;
   }
 }

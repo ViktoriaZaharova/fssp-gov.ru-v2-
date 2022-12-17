@@ -39,6 +39,9 @@
 		font-size: 21px
 		padding: 10px
 
+	.advantages-box
+		font-size: 15px
+
 @media only screen and (max-width: 992px)
 	.menu
 		font-size: 16px
@@ -51,10 +54,19 @@
 		.nav-link
 			padding: 16px 20px
 
+	.home-wrapper
+		padding: 0
+
 	.advantages-box
-		min-height: 45px
+		min-height: none
 		height: auto
 		margin: 0 0 20px
+		position: relative
+		font-size: 18px
+		left: 0
+		top: 0
+		transform: none
+		width: 100%
 
 	.phone
 		font-size: 16px
@@ -452,11 +464,10 @@
 
 	.payment-locked
 		font-size: 14px
-		margin: 5px 0 0			
+		margin: 5px 0 0
 
 	.list-info-search
 		font-size: 16px
-
 
 	.modal-dialog
 		max-width: 419px
@@ -465,7 +476,7 @@
 	.modal-footer
 		padding: 15px 30px
 		text-align: center
-		font-size: 14px	
+		font-size: 14px
 
 	.modal-header
 		padding: 30px 30px 0
@@ -477,8 +488,7 @@
 			margin: 0
 
 	.form-payment-debit button
-		margin: 15px 0 0			
-	
+		margin: 15px 0 0
 
 @media only screen and (max-width: 480px)
 	.search-result-box
@@ -487,7 +497,7 @@
 		&__title
 			width: 100%
 			&-sub
-				width: 100%	
+				width: 100%
 				padding: 10px
 
 @media only screen and (max-width: 420px)
@@ -521,3 +531,31 @@
 
 	.btn
 		padding: 12px 10px
+
+
+			
+@media only screen and (min-width: 768px)
+	.advantages-box
+		&:hover
+			background: #005A3D
+			color: #fff
+			border-radius: 3px
+			
+			min-height: none
+			.advantages-box__text
+				font-size: 21px
+				padding: 0
+				width: 100%
+			.advantages-box__icon
+				width: 30px
+				min-width: 30px
+				height: 30px
+				margin: 0 0 20px
+				fill: #DB953C
+			.box-text
+				display: block
+
+@media only screen and (min-width: 992px)
+	.advantages-box
+		&:hover
+			min-height: 187px	
