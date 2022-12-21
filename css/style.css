@@ -382,6 +382,10 @@ ul, ol {
   list-style-type: disc;
 }
 
+.list-line {
+  list-style-type: "- ";
+}
+
 .my-ul {
   list-style: none;
   padding: 0;
